@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping
+PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+	<class name="db.table.T2" table="t2">
+		<id name="id" column="id" type="int">
+			<generator class="native" />
+		</id>
+		<property name="created" column="created" type="timestamp" />
+		<property name="message" column="message" type="string" />
+	</class>
+</hibernate-mapping>
